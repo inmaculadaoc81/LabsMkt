@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" role="img" aria-labelledby="t d">
+<title id="t">LabsMKT</title><desc id="d">Logotipo LabsMKT con símbolo de laboratorio digital y crecimiento</desc>
+<rect width="760" height="190" rx="32" fill="#08111f"/>
+<g transform="translate(34 28)">
+  <path d="M42 8h50M58 8v42L20 112c-8 14 2 32 18 32h78c16 0 26-18 18-32L76 50V8" fill="none" stroke="#55e6c1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37 108h80" stroke="#55e6c1" stroke-width="8" stroke-linecap="round" opacity=".9"/>
+  <circle cx="56" cy="95" r="8" fill="#ffca5c"/><circle cx="83" cy="118" r="7" fill="#ffca5c"/><circle cx="99" cy="86" r="6" fill="#ffca5c"/>
+  <path d="M47 121l24-19 20 8 25-35" fill="none" stroke="#ffca5c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M107 74l11 1-2 11" fill="none" stroke="#ffca5c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="196" y="120" font-family="Arial,Helvetica,sans-serif" font-size="84" font-weight="800" letter-spacing="-4" fill="#f7fbff">Labs<tspan fill="#55e6c1">MKT</tspan></text>
+<text x="201" y="151" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" letter-spacing="4" fill="#9dafc4">MARKETING · DISEÑO · AUTOMATIZACIÓN</text>
+</svg>
