@@ -47,3 +47,9 @@ REVISIÓN ADICIONAL (esta pasada):
   sin interrogación); no se ha tocado.
 - Dominio, teléfono/WhatsApp y dirección ya eran correctos y propios
   de LabsMKT; no se han modificado.
+
+REVISIÓN ADICIONAL — BUG REAL (a petición del cliente):
+- El botón flotante de WhatsApp (.float-wa) mostraba el texto "WA" en
+  vez del icono SVG estándar de WhatsApp usado en el resto de la
+  familia (mismo bug encontrado en AsusTech). Sustituido por el SVG
+  correcto.
