@@ -85,6 +85,15 @@ REVISIÓN ADICIONAL (a petición del cliente):
   páginas (index.html tampoco declara ninguna, así que queda
   coherente con el resto del sitio en vez de inventar una imagen que
   no existe).
+- BUG REAL (a petición del cliente, "no tiene para agendar citas") —
+  no existía ninguna sección de Cal.com en todo el sitio (a diferencia
+  del resto de la familia). Añadida sección "Si prefieres dejarlo
+  agendado" (id="cita") justo antes de la sección de contacto, con el
+  mismo iframe compartido de la familia
+  (https://cal.com/kelatos/30min?embed=true&theme=light), altura
+  720px en escritorio y 760px en móvil. Añadido enlace "Pedir cita" al
+  menú de navegación (el mismo <nav id="nav"> se usa para escritorio y
+  móvil en esta plantilla).
 - NO IDENTIFICADO — el cliente mencionó "en la imagen se señalan los
   botones que derivan a 001web, no los coloques", pero la imagen no
   llegó adjunta a este mensaje. Revisado todo el repositorio en busca
