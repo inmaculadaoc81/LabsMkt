@@ -53,3 +53,45 @@ REVISIÓN ADICIONAL — BUG REAL (a petición del cliente):
   vez del icono SVG estándar de WhatsApp usado en el resto de la
   familia (mismo bug encontrado en AsusTech). Sustituido por el SVG
   correcto.
+
+REVISIÓN ADICIONAL (a petición del cliente):
+- Añadido "Sábados, domingos y días festivos estamos cerrados" debajo
+  del horario en la tarjeta de información del hero.
+- BUG REAL — no existía ningún botón/enlace de llamada en toda la
+  web (el README anterior decía "teléfono/WhatsApp... ya eran
+  correctos", pero solo había WhatsApp). Añadido el teléfono
+  compartido de la familia, +34 914 46 85 03: fila "📞 Teléfono" en la
+  tarjeta de información del hero, enlace en la sección de contacto
+  (junto a WhatsApp y Email) y campo "telephone" en el schema.org
+  (antes ausente).
+- BUG REAL — las dos páginas legales (politica-privacidad.html y
+  aviso-legal.html) afirmaban explícitamente "No ofrecemos atención
+  telefónica directa" / "sin ofrecer atención telefónica directa",
+  contenido que ya era falso incluso antes de este cambio si se
+  considera el WhatsApp, y que ahora contradice directamente el nuevo
+  teléfono añadido. Corregido el texto en ambas páginas, y añadido el
+  teléfono también a su bloque de información del footer.
+- BUG REAL — la casilla de política de privacidad del formulario
+  enlazaba a la página legal local del propio repositorio
+  (/politica-privacidad.html), que por su contenido HTML (clases
+  ow-brand/ow-nav-wa/ow-footer-bottom, heredadas de la plantilla base
+  "001web") parece no haberse rebrandeado del todo. Corregido al
+  enlace estándar de la familia, https://kelatos.com/privacy-policy/,
+  resaltado en azul.
+- BUG REAL — las dos páginas legales referenciaban una imagen
+  og:image inexistente (/images/og-001web.jpg, un archivo que nunca
+  existió en /images/ y que además llevaba el nombre de la plantilla
+  base, no de LabsMKT). Eliminada esa etiqueta meta rota en ambas
+  páginas (index.html tampoco declara ninguna, así que queda
+  coherente con el resto del sitio en vez de inventar una imagen que
+  no existe).
+- NO IDENTIFICADO — el cliente mencionó "en la imagen se señalan los
+  botones que derivan a 001web, no los coloques", pero la imagen no
+  llegó adjunta a este mensaje. Revisado todo el repositorio en busca
+  de enlaces reales a un dominio 001web: no se encontró ningún <a
+  href> apuntando a él; solo quedaban los dos rastros de plantilla ya
+  corregidos arriba (imagen og:image rota) y un archivo de imagen sin
+  usar, images/agencia-001web.svg (huérfano, no referenciado desde
+  ningún HTML/CSS/JS, se ha dejado sin tocar por si se usa en otro
+  sitio). Pendiente de que el cliente reenvíe la captura para
+  identificar los botones exactos si el problema persiste.
